@@ -1,0 +1,18 @@
+id("kotlin-kapt")
+dependencies {
+
+    // ROOM (database)
+    implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+
+    // Optional (coroutines support)
+    implementation("androidx.room:room-ktx:2.6.1")
+
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+
+    // Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+
+}
+
